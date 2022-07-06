@@ -1,0 +1,33 @@
+/* gerais*/
+body, html{
+    height: 100%;
+    margin: 0;
+}
+/* paragrafo */
+.paragrafo{
+    background-color: #fff;
+    color: #777;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.paragrafo h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+/*imagens*/
+.img1, .img2, .img3{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url(../parallax/imagens/a\ casa\ amarela.jpg);
+}
+.img2{
+    background-image: url(../parallax/imagens/o\ pomar\ branco.jpg);
+}
+.img3{
+    background-image: url(../parallax/imagens/Wheatfield\ sob\ Thunderclouds.jpg);
+}
